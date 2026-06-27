@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+// Take a month number (1–12) and print the number of days in that month (ignore leap years) 
+int main() {
+    int num;
+    cout << "Enter the month number: ";
+    cin >> num;
+
+    switch(num){
+    case 1: cout << "31 days";
+    break;
+
+    case 2: cout << "28 days"; 
+    break;
+
+    case 3: cout << "31 days";
+    break;
+
+    case 4: cout << "30 days";
+    break;
+
+    case 5: cout << "31 days";
+    break;
+
+    case 6: cout << "30 days";
+    break;
+
+    case 7: cout << "31 days";
+    break;
+
+    case 8: cout << "31 days";
+    break;
+
+    case 9: cout << "30 days";
+    break;
+
+    case 10: cout << "31 days";
+    break;
+
+    case 11: cout << "30 days";
+    break;
+
+    case 12: cout << "31 days";
+    break;
+
+    default: cout << "Enter the valid number";
+        
+    }
+    return 0;
+}
